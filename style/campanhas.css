@@ -51,6 +51,11 @@ body {
         font-weight: 600;
     }
 
+    .auth-buttons .btn-login {
+        color: black;
+        text-decoration: none;
+    }
+
     .login-btn {
         background: transparent;
         border: 1px solid #333;
