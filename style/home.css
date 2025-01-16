@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 /* Header daqui para baixo*/
@@ -41,6 +41,16 @@ body {
     .auth-buttons {
         display: flex;
         gap: 1rem;
+    }
+
+    .auth-buttons .btn-login {
+        color: black;
+        text-decoration: none;
+    }
+
+    .login-btn {
+        background: transparent;
+        border: 1px solid #333;
     }
 
     .auth-buttons button {
