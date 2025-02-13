@@ -5,7 +5,7 @@ import "../style/register-doador.css";
 const RegisterDoador = () => {
   return (
     <>
-      <div className="body"body>
+      <div>
         <div className="page-central">
           <div className="background-header">
             <h1>

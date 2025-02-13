@@ -5,7 +5,7 @@ import "../style/register-doador.css";
 const login = () => {
   return (
     <>
-      <div className="body">
+      <div>
         <div className="page-central">
           <div className="background-header">
             <h1>
