@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
-.body {
+body {
     background-color: #f0f0f0;
 }
 
@@ -46,6 +48,10 @@
     margin: 0 4% 5% 2%;
     width: 90%;
     box-shadow: 1px 0px 20px 1px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+    overflow-y: auto; 
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
 }
 
 .campaigns-container {

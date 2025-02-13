@@ -5,7 +5,7 @@ import "../style/register-organizacao.css";
 const registerOrganizacao = () => {
   return (
     <>
-      <div className="body">
+      <div>
         <div className="page-central">
           <div className="background-header">
             <h1>

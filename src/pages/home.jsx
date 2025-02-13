@@ -5,7 +5,7 @@ import "../style/home.css";
 const Home = () => {
   return (
     <>
-      <div className="body">
+      <div >
         <img
           src="../img/Ellipse.svg"
           alt=""
