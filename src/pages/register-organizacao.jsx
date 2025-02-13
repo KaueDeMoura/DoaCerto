@@ -1,72 +1,72 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../style/register-organizacao.css";
 
 const registerOrganizacao = () => {
   return (
     <>
-      <body>
-
-        <div class="page-central">
-          <div class="background-header">
+      <div className="body">
+        <div className="page-central">
+          <div className="background-header">
             <h1>
               <b>Resgistre-se como</b> Organização
             </h1>
           </div>
-          <div class="form">
-            <div class="form-container">
+          <div className="form">
+            <div className="form-container">
               <form>
-                <div class="form-grid">
-                  <div class="form-group">
+                <div className="form-grid">
+                  <div className="form-group">
                     <label>Nome da Organização</label>
                     <input type="text" placeholder="Nome da Organização" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>CEP</label>
                     <input type="text" placeholder="00000-000" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>CNPJ</label>
                     <input type="text" placeholder="00.000.000/0000-00" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Estado</label>
                     <input type="text" placeholder="Estado" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Email</label>
                     <input type="email" placeholder="Email" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Cidade</label>
                     <input type="text" placeholder="Cidade" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Senha</label>
                     <input type="password" placeholder="Senha" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Complemento</label>
                     <input type="text" placeholder="Complemento" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Número de Telefone</label>
                     <input type="tel" placeholder="Número" />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label>Horário de Funcionamento</label>
-                    <div class="time-group">
-                      <input type="time" class="time-input" />
+                    <div className="time-group">
+                      <input type="time" className="time-input" />
                       <span>às</span>
-                      <input type="time" class="time-input" />
+                      <input type="time" className="time-input" />
                       <p>-</p>
-                      <input type="time" class="time-input" />
+                      <input type="time" className="time-input" />
                       <span>às</span>
-                      <input type="time" class="time-input" />
+                      <input type="time" className="time-input" />
                     </div>
                   </div>
                 </div>
-                <div class="submit-container">
-                  <button type="submit" class="submit-btn">
+                <div className="submit-container">
+                  <button type="submit" className="submit-btn">
                     Finalizar
                     <svg
                       width="20"
@@ -84,7 +84,7 @@ const registerOrganizacao = () => {
             </div>
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 };
