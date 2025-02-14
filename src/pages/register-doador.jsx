@@ -1,41 +1,41 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import "../style/register-doador.css";
+import styles from "../style/register-doador.module.css";
 
 const RegisterDoador = () => {
   return (
     <>
-      <div className="body"body>
-        <div className="page-central">
-          <div className="background-header">
+    <title>DoaCerto - Registro</title>
+      <div>
+        <div className={styles.pageCentral}>
+          <div className={styles.backgroundHeader}>
             <h1>
               <b>Registre-se como</b> Doador
             </h1>
           </div>
-          <div className="form">
-            <div className="form-container">
+          <div className={styles.form}>
+            <div className={styles.formContainer}>
               <form>
-                <div className="form-grid">
-                  <div className="form-group">
+                <div className={styles.formGrid}>
+                  <div className={styles.formGroup}>
                     <label>Nome Completo</label>
                     <input type="text" placeholder="Nome Completo" />
                   </div>
 
-                  <div className="form-group">
+                  <div className={styles.formGroup}>
                     <label>Email</label>
                     <input type="email" placeholder="Email" />
                   </div>
-                  <div className="form-group">
+                  <div className={styles.formGroup}>
                     <label>Senha</label>
                     <input type="password" placeholder="Senha" />
                   </div>
-                  <div className="form-group">
+                  <div className={styles.formGroup}>
                     <label>Número de Telefone</label>
                     <input type="tel" placeholder="Número" />
                   </div>
                 </div>
-                <div className="submit-container">
-                  <button type="submit" className="submit-btn">
+                <div className={styles.submitContainer}>
+                  <button type="submit" className={styles.submitBtn}>
                     Finalizar
                     <svg
                       width="20"

@@ -3,20 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
-
-.body {
+  }
+  
+  body {
     background-color: #f0f0f0;
-}
-
-.page-central{
+  }
+  
+  
+  .pageCentral{
     margin: 0;
     background: #f0f0f0;
     border-radius: 0 0 8px 8px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-}
-
-.background-header {
+  }
+  
+  .backgroundHeader {
     width: 80%;
     height: 20vh;
     margin: 4% 4% 0 5%;
@@ -24,9 +25,9 @@
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-.background-header h1 {
+  }
+  
+  .backgroundHeader h1 {
     color: #f0f0f0;
     font-size: 2rem;
     line-height: 1.5;
@@ -35,32 +36,32 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 4%;
-}
-
-.form{
+  }
+  
+  .form{
     width: 90%;
     height: 22vh;
     background: #f0f0f0;
     box-shadow: 1px 0px 20px 1px rgba(0, 0, 0, 0.1);
     margin: 0 4% 0 2%;
-}
-
-.form-container {
+  }
+  
+  .formContainer {
     background: #f0f0f0;
     padding: 2rem;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.form-grid {
+  }
+  
+  .formGrid {
     display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     flex-direction: column;
     align-items: center;
-}
-
-.form-group input {
+  }
+  
+  .formGroup input {
     width: 40%;
     padding: 0.8rem;
     border: 1px solid #ddd;
@@ -68,43 +69,44 @@
     font-size: 1rem;
     box-sizing: border-box;
     background-color: #f0f0f0;
-}
-
-.form-group {
+  }
+  
+  .formGroup {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
-
-.form-group label {
+  }
+  
+  .formGroup label {
     color: #666;
-}
-
-.form-group input {
+    font-weight: 600;
+  }
+  
+  .formGroup input {
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
     width: 90vh;
-}
-
-.time-group {
+  }
+  
+  .timeGroup {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.time-input {
+  }
+  
+  .timeInput {
     width: 100px;
-}
-
-.submit-container {
+  }
+  
+  .submitContainer {
     display: flex;
     justify-content: flex-end;
     margin-top: 2rem;
-}
-
-.submit-btn {
+  }
+  
+  .submitBtn {
     padding: 0.8rem 2rem;
     background-color: rgb(165, 74, 240);
     color: #f0f0f0;
@@ -114,9 +116,10 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.submit-btn:hover{
+  }
+  
+  .submitBtn:hover{
     transition: 0.6s;
     background-color: rgb(146, 24, 245);
-}
+  }
+  
