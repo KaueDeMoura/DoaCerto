@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     scrollbar-width: none;
 }
 
@@ -11,14 +11,14 @@ body {
     background-color: #f0f0f0;
 }
 
-.page-central{
+.pageCentral{
     margin: 0;
     background: #f0f0f0;
     border-radius: 0 0 8px 8px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
-.background-header {
+.backgroundHeader {
     width: 80%;
     height: 20vh;
     margin: 9% 4% 0 5%;
@@ -28,7 +28,7 @@ body {
     text-align: center;
 }
 
-.background-header h1 {
+.backgroundHeader h1 {
     color: #f0f0f0;
     font-size: 2rem;
     line-height: 1.5;
@@ -52,9 +52,13 @@ body {
     overflow-y: auto; 
     scrollbar-width: thin;
     scrollbar-color: #888 #f0f0f0;
+    height: 90vh;
+    overflow-y: auto; 
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
 }
 
-.campaigns-container {
+.campaignsCntainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
@@ -63,7 +67,7 @@ body {
     gap: 5rem;
 }
 
-.campaigns-grid {
+.campaignsGrid {
     background-color: #fff;
     padding: 1rem;
     border-radius: 8px;
@@ -75,22 +79,22 @@ body {
     margin: 0;
 }
 
-.campaigns-grid img {
+.campaignsGrid img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-top: 0.5rem;
 }
 
-.campaigns-group label {
+.campaignsGroup label {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-Bottom: 0.5rem;
     color: #333;
 }
 
 
-.campaigns-group input {
+.campaignsGroup input {
     width: 40%;
     padding: 0.8rem;
     border: 1px solid #ddd;
@@ -100,17 +104,17 @@ body {
     background-color: #f0f0f0;
 }
 
-.campaigns-group {
+.campaignsGroup {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.campaigns-group label {
+.campaignsGroup label {
     color: #666;
 }
 
-.campaigns-group input {
+.campaignsGroup input {
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;

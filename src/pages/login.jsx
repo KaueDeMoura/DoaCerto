@@ -1,32 +1,32 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import "../style/register-doador.css";
+import styles from "../style/login.module.css";
 
 const login = () => {
   return (
     <>
       <div>
-        <div className="page-central">
-          <div className="background-header">
+        <title>DoaCerto - Login</title>
+        <div className={styles.pageCentral}>
+          <div className={styles.backgroundHeader}>
             <h1>
               <b>Login</b>
             </h1>
           </div>
-          <div className="form">
-            <div className="form-container">
+          <div className={styles.form}>
+            <div className={styles.formContainer}>
               <form>
-                <div className="form-grid">
-                  <div className="form-group">
+                <div className={styles.formGrid}>
+                  <div className={styles.formGroup}>
                     <label>Email</label>
                     <input type="email" placeholder="Email"></input>
                   </div>
-                  <div className="form-group">
+                  <div className={styles.formGroup}>
                     <label>Senha</label>
                     <input type="password" placeholder="Senha"></input>
                   </div>
                 </div>
-                <div className="submit-container">
-                  <button type="submit" className="submit-btn">
+                <div className={styles.submitContainer}>
+                  <button type="submit" className={styles.submitBtn}>
                     Login
                     <svg
                       width="20"

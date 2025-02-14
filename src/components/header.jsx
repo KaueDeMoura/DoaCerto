@@ -1,30 +1,31 @@
 import React from "react";
+
 import { useNavigate } from "react-router-dom";
-import "../style/header.css";
+import styles from "../style/header.module.css";
 import Logo from "../img/logo-doa-certo.png"
 
-const Header = () => {
-  const navigate = useNavigate(); // Hook para navegação
 
+const Header = () => {
+  const navigate = useNavigate();
   return (
-    <header className="header">
-      <img src={Logo} alt="Logo" className="logo" />
-      <nav className="nav-links">
+    <header className={styles.header}>
+      <img src={Logo} alt="Logo" className={styles.logo} />
+      <nav className={styles.navLinks}>
         <a onClick={() => navigate("/")}>Home</a>
         <a onClick={() => navigate("/campanhas")}>Campanhas</a>
         <a onClick={() => navigate("/sobre")}>Sobre</a>
       </nav>
-      <div className="auth-buttons">
-        <div className="dropdown">
-          <button className="login-btn">
+      <div className={styles.authButtons}>
+     <div className={styles.dropdown}>
+          <button className={styles.loginBtn}>
             Registrar-se
           </button>
-          <div className="dropdown-options">
-            <button onClick={() => navigate("/registerDoador")}>Doador</button>
-            <button onClick={() => navigate("/registerOrganizacao")}>Organização</button>
+          <div className={styles.dropdownOptions}>
+            <button className={styles.btnAuth} onClick={() => navigate("/registerDoador")}>Doador</button>
+            <button className={styles.btnAuth} onClick={() => navigate("/registerOrganizacao")}>Organização</button>
           </div>
         </div>
-        <button className="login-btn" onClick={() => navigate("/login")}>
+        <button className={styles.loginBtn} onClick={() => navigate("/login")}>
           Login
         </button>
       </div>

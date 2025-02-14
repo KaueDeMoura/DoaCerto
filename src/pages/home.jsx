@@ -1,18 +1,18 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import "../style/home.css";
+import styles from "../style/home.module.css";
 
 const Home = () => {
   return (
     <>
-      <div >
+    <title>DoaCerto - Home</title>
+      <div>
         <img
           src="../img/Ellipse.svg"
           alt=""
           width="39%"
           style={{ position: "absolute", zIndex: 1 }}
         />
-        <div className="text">
+        <div className={styles.text}>
           <h1 style={{ marginRight: "50px" }}>Salve Vidas</h1>
           <h1>Doe Alimento</h1>
           <p>
@@ -31,7 +31,7 @@ const Home = () => {
             enquanto entidades beneficentes fazem a gestão e distribuição dos
             alimentos para comunidades carentes.
           </p>
-          <button className="button-text">Doe Agora!</button>
+          <button className={styles.buttonText}>Doe Agora!</button>
         </div>
       </div>
     </>
