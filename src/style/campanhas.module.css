@@ -52,6 +52,10 @@ body {
     overflow-y: auto; 
     scrollbar-width: thin;
     scrollbar-color: #888 #f0f0f0;
+    height: 90vh;
+    overflow-y: auto; 
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
 }
 
 .campaignsCntainer {
@@ -85,7 +89,7 @@ body {
 .campaignsGroup label {
     font-size: 1rem;
     font-weight: bold;
-    marginBottom: 0.5rem;
+    margin-Bottom: 0.5rem;
     color: #333;
 }
 

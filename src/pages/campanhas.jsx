@@ -16,7 +16,7 @@ const campanhas = () => {
                 <div className={styles.campaignsGroup}>
                   <label>Excavação de Dinossauros</label>
                   <img
-                    src="/img/img-campanha1.jpg"
+                    src="https://www.biancogres.com.br/media/9746/conversions/porcelanato-biancogres-persian-grigio-1-thumb_480p.jpg"
                     alt="Imagem da campanha 1"
                   ></img>
                   <p>Contato: (47) 99987-4580</p>
